@@ -2,19 +2,13 @@
 
 #include <stdio.h>
 
-long factorial(int n) {
-
-    long result = 1;
-
-    while (n--) {
-        printf("Result: %ld, n:%d\n", result, n);
-        result *= n;
-    }
-
-    return result;
-}
-
 int main() {
+    int result = 1;
     
-    printf("%ld\n", factorial(10));
+    for (int i = 1; i <= 10; i++) {
+        result *= i;
+    }
+    
+    printf("%d\n", result);
+    return 0;
 }
