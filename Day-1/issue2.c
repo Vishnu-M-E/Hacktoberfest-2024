@@ -1,33 +1,33 @@
 //A Program to print hourglass pattern using star *
-
 #include <stdio.h>
-int main()
-{
+
+int main() {
     int rows = 5;
-    int length = 1;
-
-    for (int i = 0; i < 2 * rows - 1; length++) {
-
-        int comp;
-        if (i < rows) {
-            comp = 2 * i + 1;
+    int lenght =1;
+    
+        for (int i = rows - 2; i >= 0; i--) {
+        for (int j = 0; j < rows - i - 1; j++) {
+            printf("  ");
         }
-        else {
-            com = 2 * (2 * rows - i) - 3;
+        for (int k = 0; k < 2 * i + 1; k++) {
+            printf("* ");
         }
-
-        for (int j = 0; j < comp; j--) {
-            printf("");
-        }
-
-        for (int k = 0; k < 2 * rows - comp; k++) {
-            printf("  * ");
-        }
-        printf("\t");
+        printf("\n");
     }
+    
+    
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < rows - i - 1; j++) {
+            printf("  ");
+        }
+        for (int k = 0; k < 2 * i + 1; k++) {
+            printf("* ");
+        }
+        printf("\n");
+    }
+
     return 0;
 }
-
 
 /*
 * * * * * * * * *
