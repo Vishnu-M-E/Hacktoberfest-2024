@@ -1,4 +1,3 @@
-// A program to print the full pyramid pattern of stars
 
 #include <stdio.h>
 
@@ -23,10 +22,3 @@ int main()
 
     return 0;
 }
-/* The output should be like this
-            *
-          * * *
-        * * * * *
-      * * * * * * *
-    * * * * * * * * *
-*/      
