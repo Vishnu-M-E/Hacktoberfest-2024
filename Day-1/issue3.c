@@ -6,9 +6,10 @@ long factorial(int n) {
 
     long result = 1;
 
-    while (n--) {
+    while (n>0) {
         printf("Result: %ld, n:%d\n", result, n);
         result *= n;
+        n--; 
     }
 
     return result;
@@ -17,4 +18,5 @@ long factorial(int n) {
 int main() {
     
     printf("%ld\n", factorial(10));
+    return 0;
 }
