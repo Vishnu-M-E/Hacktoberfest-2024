@@ -1,4 +1,3 @@
-// A program to print the full pyramid pattern of stars
 
 #include <stdio.h>
 
@@ -13,19 +12,13 @@ int main()
         }
 
         for (int k = 0; k < 2 * i + 1; k++) {
-            printf("*");
-            printf(" ");
+            printf("* ");
         }
+        //printf("*");
         printf("\n");
     }
 
+    //printf("%d \n", rows);
 
     return 0;
 }
-/* The output should be like this
-            *
-          * * *
-        * * * * *
-      * * * * * * *
-    * * * * * * * * *
-*/
