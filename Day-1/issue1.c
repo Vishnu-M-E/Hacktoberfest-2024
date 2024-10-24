@@ -18,7 +18,6 @@ int main()
         printf(" ");
         printf("\n");
     }
-
     return 0;
 }
 /* The output should be like this
@@ -27,4 +26,4 @@ int main()
         * * * * *
       * * * * * * *
     * * * * * * * * *
-*/      
+*/
