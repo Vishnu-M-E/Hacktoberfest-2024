@@ -1,8 +1,16 @@
 #include <stdio.h>
 
-void del(int arr, int element) {
-    
-    // Define a function to delelte an element from the array passed as argument.
+// Define a function to delelte an element from the array passed as argument.
+void del(int *arr, int element) {
+    int i=0;
+    while(i<5) {
+        if (arr[i] == element) {
+            int j;
+            for (j = i; j < 5 - 1; j++)
+            arr[j] = arr[j + 1];
+        }
+        i++;
+    }
 }
 
 
@@ -11,7 +19,7 @@ int main() {
 
     del(arr, 5);
 
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 4; i++) {
         printf("%d ", arr[i]);
     }
     printf("\n");
