@@ -7,16 +7,16 @@ int main()
     int i; 
     int numTerms = 10;
     int t1 = 0, t2 = 1;
-    int nextTerm;
+    int nextTerm=1;
 	
-    printf("Fibonacci Series: ");
+    printf("Fibonacci Series: 0 ");
 
-    for (i = 1; i <= numTerms; ++i) 
+    for (i = 1; i < numTerms; i++) 
     {
-        printf("%d, ", t1);
+        printf("%d ", nextTerm);
         nextTerm = t1 + t2;
-        t1 = nextTerm;
-        t2 = t1;
+        t1 = t2;
+        t2 = nextTerm;
     }
 
     return 0;
