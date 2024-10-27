@@ -7,16 +7,14 @@ long factorial(int n) {
 
     long result = 1;
 
-    while (n>1) {
-        printf("Result: %ld, n:%d\n", result, n);
+    while (n!=0) {
         result *= n;
-        n = n-1;
+        n--;
     }
 
     return result;
 }
 
 int main() {
-    
-    printf("%ld\n", factorial(10));
+    printf("Result: %ld, n:%d\n", factorial(10), 10);
 }
