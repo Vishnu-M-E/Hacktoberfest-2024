@@ -24,6 +24,16 @@ We have curated a wide array of issues and bugs waiting to be resolves and squas
 > [!CAUTION]
 > Ensure that there are no conflicts when you're requesting your changes to be merged.
 
+### Repositories by Day
+
+| Day | Repository Link |
+| --- | --------------- |
+| Day 1 | [Link to Day 1 Repo](https://github.com/Vishnu-M-E/Hacktoberfest-2024/) |
+| Day 2 | [Hackweek Multistep Form](https://github.com/swayam-agrahari/Hackweek-Multistep-Form.git) |
+| Day 3 | [Flutter-Resolve](https://github.com/angrezichatterbox/Flutter-Resolve) |
+| Day 4 | [Link to Day 4 Repo](#) |
+| Day 5 | [Link to Day 5 Repo](#) |
+
 
 ### Issues
 
