@@ -17,7 +17,7 @@ void del(int arr[], int size, int element) {
         arr[size - 1] = 0;
     }else{
         printf("Element not found in the array.\n");
-    }    
+    }
 }
 
 
@@ -27,7 +27,7 @@ int main() {
 
     del(arr, size, 5);
 
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 4; i++) {
         printf("%d ", arr[i]);
     }
     printf("\n");
